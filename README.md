@@ -30,6 +30,11 @@ Add the Alias to the `aliases` array in Laravel's `./config/app.php` file if you
 
 ## Usage
 
+Add to use the Searchy namespace
+```php
+  use TomLingham\Searchy\Facades\Searchy;
+```
+
 To use Searchy, you can take advantage of magic methods.
 
 If you are searching the name and email column/field of users in a `users` table you would, for example run:
