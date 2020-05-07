@@ -14,16 +14,7 @@ https://github.com/TomLingham/Laravel-Searchy/tree/1.0
 
 ## Installation
 
-Add `"benjamin-odiowa/laravel-searchy" : "2.*"` to your composer.json file under `require`:
-
-```json
-"require": {
-  "laravel/framework": "5.*",
-  "tom-lingham/searchy" : "2.*"
-}
-```
-
-Run `composer update` in your terminal to pull down the package into your vendors folder.
+Run `composer require benjamin-odiowa/laravel-searchy` in your terminal to pull down the package into your vendors folder.
 
 Add the service provider to the `providers` array in Laravel's `./config/app.php` file:
 
